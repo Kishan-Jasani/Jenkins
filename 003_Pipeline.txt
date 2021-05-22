@@ -1,0 +1,4 @@
+Pipeline is a workflow with group of events or jobs that are chained and integrated with each other in the sequence.
+
+
+example: build ----> deployment -------> testing -------> Delivery

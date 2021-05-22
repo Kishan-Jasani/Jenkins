@@ -1,0 +1,24 @@
+--> Jenkins is a java based application used for continuous integration and continuos delivery.
+
+--> How jenkins typoically fit into my work?
+	-- Let suppose we have 10 developers who is working on same project or application.
+	-- At the End of every code change every developers commits their code in some shared repository.
+	-- So there are lots of commits happens in their repository.
+	-- Now if there is any occurs in code it is difficult to find in which build the error was and what is the error?
+	-- Here Jenkins comes into picture.
+	-- After every successful commits Jenkins will grab the latest code and trigger a build and build notification send out to team members.
+	-- If build failed, we can check the issue in the code.
+	-- if build succeess, It can Run Test cases. publish output in Live Server.
+	-- It also sends report to every team member about Test cases.
+	
+
+--> how to install jenkins?
+	-- Open https://www.jenkins.io/download/ and download jenkins.war file
+	-- Put Jenkins.war file in some folder
+	-- Open Command Prompt and go the folder where Jenkins.war is present
+	-- Type "java -jar jenkins.war" in cmd
+	-- This will extract from war file and it will give you admin password. Save the password somewhere.
+	-- Open "localhost:8080" in browser and use password to unlock jenkins.
+	-- Select plug-ins which we need and click on install.
+	-- Can create seperate user or continue as Admin.
+	

@@ -1,0 +1,29 @@
+--> How to change Jenkins Home Directory?
+	-- Check your home directory(Open Jenkins, Manage Jenkins-->Configure System--> Home Directory)
+	-- Create New Folder which will be new Home Directory.
+	-- Copy everything from old directory and paste it on new directory.
+	-- Change environment variable(JENKINS_HOME) from old to new directory.
+	-- Restart Jenkins. (In browser Open "localhost:8080/restart")
+	
+	
+--> How to change port of Jenkins?
+	-- "java -jar jenkins.war --httpPort=9090"
+	
+	
+--> how to use command Line Interface for Jenkins? (Fast, efficient, easy)
+	-- Open jenkins ("java -jar jenkins.war)
+	-- Go to manage Jenkins--> Configure Global Security--> Enable Security should be checked.
+	-- Open "localhost:8080/cli" in browser.
+	-- Download jenkins-cli.jar and save this any location in system.
+	-- Open cmd. Go to folder where jenkins-cli.jar is placed.
+	-- Use any command.
+	
+	
+--> Weather symbols in Jenkins:-
+	-- Sunny, more than 80% of Runs passing
+	-- Partially Sunny, 61% to 80% of Runs passing
+	-- Cloudy, 41% to 60% of Runs passing
+	-- Raining, 21% to 40% of Runs passing
+	-- Storm, less than 21% of Runs passing
+	
+	
